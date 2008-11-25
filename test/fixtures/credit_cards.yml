@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  cardNumber: 1
+  cardName: MyString
+  cardAddress: MyString
+  cardVendor: MyString
+  cardSecCode: 1
+  cardExpiration: MyString
+
+two:
+  cardNumber: 1
+  cardName: MyString
+  cardAddress: MyString
+  cardVendor: MyString
+  cardSecCode: 1
+  cardExpiration: MyString

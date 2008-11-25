@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  orderNumber: 1
+  userId: 1
+  discretePackaging: false
+
+two:
+  orderNumber: 1
+  userId: 1
+  discretePackaging: false

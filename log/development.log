@@ -1,0 +1,75 @@
+
+
+Processing UsersController#index (for 127.0.0.1 at 2008-11-25 04:16:44) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--6acc2133c87e7cd9dc4de2817cd7d5c5fbbd670e
+  Parameters: {"controller"=>"users", "action"=>"index"}
+
+
+CGI::Session::CookieStore::TamperedWithCookie (CGI::Session::CookieStore::TamperedWithCookie):
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session/cookie_store.rb:143:in `unmarshal'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session/cookie_store.rb:102:in `restore'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/1.8/cgi/session.rb:304:in `[]'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/cgi_process.rb:134:in `session'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/cgi_process.rb:166:in `stale_session_check!'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/cgi_process.rb:114:in `session'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1131:in `assign_shortcuts'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/flash.rb:167:in `assign_shortcuts_with_flash'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:518:in `process'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_with_filters'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process_with_session_management_support'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2008-11-25 04:16:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--49241eebd70fbce90c6240e7260c6edea3f6558b
+  Parameters: {"controller"=>"users", "action"=>"new"}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2008-11-25 04:16:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--49241eebd70fbce90c6240e7260c6edea3f6558b
+  Parameters: {"controller"=>"users", "action"=>"new"}
+
+
+MissingSourceFile (no such file to load -- sqlite3):
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:291:in `connection='
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:259:in `retrieve_connection'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_with_filters'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process_with_session_management_support'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.1/ruby2/jruby-1.1/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)

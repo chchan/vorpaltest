@@ -1,0 +1,57 @@
+<h1>Editing users</h1>
+
+<%= error_messages_for :users %>
+
+<% form_for(@users) do |f| %>
+  <p>
+    <b>Userid</b><br />
+    <%= f.text_field :userId %>
+  </p>
+
+  <p>
+    <b>Username</b><br />
+    <%= f.text_field :userName %>
+  </p>
+
+  <p>
+    <b>Userpassword</b><br />
+    <%= f.text_field :userPassword %>
+  </p>
+
+  <p>
+    <b>Firstname</b><br />
+    <%= f.text_field :firstName %>
+  </p>
+
+  <p>
+    <b>Lastname</b><br />
+    <%= f.text_field :lastName %>
+  </p>
+
+  <p>
+    <b>Email</b><br />
+    <%= f.text_field :email %>
+  </p>
+
+  <p>
+    <b>Address</b><br />
+    <%= f.text_field :address %>
+  </p>
+
+  <p>
+    <b>Isadmin</b><br />
+    <%= f.check_box :isAdmin %>
+  </p>
+
+  <p>
+    <b>Isactive</b><br />
+    <%= f.check_box :isActive %>
+  </p>
+
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @users %> |
+<%= link_to 'Back', users_path %>

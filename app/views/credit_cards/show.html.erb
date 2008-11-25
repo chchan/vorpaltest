@@ -1,0 +1,33 @@
+<p>
+  <b>Cardnumber:</b>
+  <%=h @credit_card.cardNumber %>
+</p>
+
+<p>
+  <b>Cardname:</b>
+  <%=h @credit_card.cardName %>
+</p>
+
+<p>
+  <b>Cardaddress:</b>
+  <%=h @credit_card.cardAddress %>
+</p>
+
+<p>
+  <b>Cardvendor:</b>
+  <%=h @credit_card.cardVendor %>
+</p>
+
+<p>
+  <b>Cardseccode:</b>
+  <%=h @credit_card.cardSecCode %>
+</p>
+
+<p>
+  <b>Cardexpiration:</b>
+  <%=h @credit_card.cardExpiration %>
+</p>
+
+
+<%= link_to 'Edit', edit_credit_card_path(@credit_card) %> |
+<%= link_to 'Back', credit_cards_path %>

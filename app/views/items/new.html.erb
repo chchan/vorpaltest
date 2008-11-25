@@ -1,0 +1,36 @@
+<h1>New items</h1>
+
+<%= error_messages_for :items %>
+
+<% form_for(@items) do |f| %>
+  <p>
+    <b>Itemid</b><br />
+    <%= f.text_field :itemId %>
+  </p>
+
+  <p>
+    <b>Itemname</b><br />
+    <%= f.text_field :itemName %>
+  </p>
+
+  <p>
+    <b>Itemprice</b><br />
+    <%= f.text_field :itemPrice %>
+  </p>
+
+  <p>
+    <b>Itemdescription</b><br />
+    <%= f.text_field :itemDescription %>
+  </p>
+
+  <p>
+    <b>Itemtags</b><br />
+    <%= f.text_field :itemTags %>
+  </p>
+
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', items_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  itemId: 1
+  itemName: MyString
+  itemPrice: 1
+  itemDescription: MyString
+  itemTags: MyString
+
+two:
+  itemId: 1
+  itemName: MyString
+  itemPrice: 1
+  itemDescription: MyString
+  itemTags: MyString

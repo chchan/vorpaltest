@@ -1,0 +1,18 @@
+<p>
+  <b>Ordernumber:</b>
+  <%=h @order.orderNumber %>
+</p>
+
+<p>
+  <b>Userid:</b>
+  <%=h @order.userId %>
+</p>
+
+<p>
+  <b>Discretepackaging:</b>
+  <%=h @order.discretePackaging %>
+</p>
+
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>

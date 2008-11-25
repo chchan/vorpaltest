@@ -1,0 +1,30 @@
+<h1>Listing credit_cards</h1>
+
+<table>
+  <tr>
+    <th>Cardnumber</th>
+    <th>Cardname</th>
+    <th>Cardaddress</th>
+    <th>Cardvendor</th>
+    <th>Cardseccode</th>
+    <th>Cardexpiration</th>
+  </tr>
+
+<% for credit_card in @credit_cards %>
+  <tr>
+    <td><%=h credit_card.cardNumber %></td>
+    <td><%=h credit_card.cardName %></td>
+    <td><%=h credit_card.cardAddress %></td>
+    <td><%=h credit_card.cardVendor %></td>
+    <td><%=h credit_card.cardSecCode %></td>
+    <td><%=h credit_card.cardExpiration %></td>
+    <td><%= link_to 'Show', credit_card %></td>
+    <td><%= link_to 'Edit', edit_credit_card_path(credit_card) %></td>
+    <td><%= link_to 'Destroy', credit_card, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New credit_card', new_credit_card_path %>

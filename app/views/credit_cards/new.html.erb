@@ -1,0 +1,41 @@
+<h1>New credit_card</h1>
+
+<%= error_messages_for :credit_card %>
+
+<% form_for(@credit_card) do |f| %>
+  <p>
+    <b>Cardnumber</b><br />
+    <%= f.text_field :cardNumber %>
+  </p>
+
+  <p>
+    <b>Cardname</b><br />
+    <%= f.text_field :cardName %>
+  </p>
+
+  <p>
+    <b>Cardaddress</b><br />
+    <%= f.text_field :cardAddress %>
+  </p>
+
+  <p>
+    <b>Cardvendor</b><br />
+    <%= f.text_field :cardVendor %>
+  </p>
+
+  <p>
+    <b>Cardseccode</b><br />
+    <%= f.text_field :cardSecCode %>
+  </p>
+
+  <p>
+    <b>Cardexpiration</b><br />
+    <%= f.text_field :cardExpiration %>
+  </p>
+
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', credit_cards_path %>

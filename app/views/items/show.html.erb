@@ -1,0 +1,28 @@
+<p>
+  <b>Itemid:</b>
+  <%=h @items.itemId %>
+</p>
+
+<p>
+  <b>Itemname:</b>
+  <%=h @items.itemName %>
+</p>
+
+<p>
+  <b>Itemprice:</b>
+  <%=h @items.itemPrice %>
+</p>
+
+<p>
+  <b>Itemdescription:</b>
+  <%=h @items.itemDescription %>
+</p>
+
+<p>
+  <b>Itemtags:</b>
+  <%=h @items.itemTags %>
+</p>
+
+
+<%= link_to 'Edit', edit_items_path(@items) %> |
+<%= link_to 'Back', items_path %>
